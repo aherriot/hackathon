@@ -1,0 +1,88 @@
+/* General */
+
+button.button[disabled],
+button.button[disabled]:hover {
+  background-color: #bbb;
+  border-color: #999;
+}
+
+textarea,
+input[type='text'] {
+  width: 100%;
+}
+
+textarea {
+  white-space: nowrap;
+  overflow: auto;
+}
+
+pre {
+  font-family: inherit;
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word;
+}
+
+.button-secondary {
+  background-color: white;
+}
+
+/* Form  */
+
+.form {
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__body {
+  padding: 1rem 2rem;
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+label.form__label {
+  margin-left: 1rem;
+  display: inline;
+}
+
+.form__button-row {
+  margin: 0.5rem 2rem 1.5rem 2rem;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.form__group {
+  margin-bottom: 1rem;
+}
+
+.form .form__error {
+  border-color: rgb(208, 64, 51);
+}
+
+div.error {
+  font-size: 1.2rem;
+  color: rgb(208, 64, 51);
+}
+
+/* /Other */
+
+.hero {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  background-color: #7489ad;
+  padding: 5rem 0 5rem;
+  color: white;
+}
+
+.faq {
+  padding: 3rem 0 3rem;
+}

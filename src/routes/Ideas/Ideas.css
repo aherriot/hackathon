@@ -1,0 +1,28 @@
+.Ideas__container {
+  margin-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+.Ideas__add-row {
+  margin-bottom: 2rem;
+  color: rgb(0, 65, 142);
+  font-weight: bold;
+}
+
+.table-header {
+  font-weight: 600;
+}
+
+.Ideas__table-header {
+  display: none;
+}
+
+@media (min-width: 550px) {
+  .Ideas__table-header {
+    display: block;
+  }
+}
+
+.Ideas__warning {
+  color: rgb(208, 64, 51);
+}

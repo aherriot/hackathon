@@ -1,0 +1,24 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 5rem;
+  padding: 0 1rem 0 2rem;
+
+  background-color: rgb(0, 65, 142);
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header__left {
+}
+
+.Header__right {
+  display: flex;
+  align-items: center;
+}
